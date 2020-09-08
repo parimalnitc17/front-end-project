@@ -1,0 +1,254 @@
+body{
+    margin:0px;
+}
+header{
+    height:65vh;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+.text-center{
+    text-align:center;
+}
+#nav-bar li{
+    display:inline-block;
+    margin:5px;
+    
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:orange;
+    transition:0.5s;
+}
+header h1{
+    font-size:3rem;
+    color:white;
+    margin-top:70px;
+}
+#social-icon li{
+    display:inline-block;
+    margin:10px;
+    color:white;
+}
+
+#about{
+	height: auto;
+	width:100%;
+	position: relative;
+	margin:auto;
+
+}
+#image {
+    text-align: center;
+/*     height:180px;
+    width:180px; */
+    margin-top:-99px;
+}
+
+#image img{
+    height:180px;
+    width:180px;
+    border:2px solid cyan;
+    border-radius:50%;
+}
+#about p{
+    margin-top:20px;
+    margin-left:15%;
+    width:70%;
+    text-align:justify;
+    color:grey;
+}
+.heading{
+
+    width:100%;
+    text-align:center;
+    height:auto;
+    color:#3f406b;
+}
+.skill-container{
+    width:70%;
+    display:flex;
+    margin-left:15%;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-self:center;
+}
+.skill-container>div{
+    
+    margin:10px;
+    margin-top:30px;
+    height:20px;
+    width:150px;
+    border:1px solid black;
+    border-radius:15px;
+    background-color:#e6e3e3b8;
+}
+.skill-container span{
+    margin-left:5px;
+}
+#structure{
+    height:100%;
+    width:70%;
+    background-color:#cd7979;
+    border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+#style{
+    height:100%;
+    width:60%;
+    background-color:#827dad;
+    border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+#C{
+    height:100%;
+    width:70%;
+    background-color:#58ab9b;
+    border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+#Python{
+    height:100%;
+    width:60%;
+    background-color:#abd277;
+    border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+#Nodejs{
+    height:100%;
+    width:70%;
+    background-color:#7bb1ca;
+    border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+#MongoDB{
+    height:100%;
+    width:50%;
+    background-color:#d4a259;
+    border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+#javasript{
+    height:100%;
+    width:50%;
+    background-color:#ef6e9a;
+    border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+.skill-container div div{
+    background-size:cover;
+    
+}
+#experience{
+    position:relative;
+}
+
+.timeline{
+    position:relative;
+    left:15%;
+    height:65vh;
+    width:70%;
+
+}
+.timeline-box{
+    position:relative;
+    width:40%;
+    height:21%;
+    margin:10px;
+    border:1px solid black;
+}
+.timeline-box:nth-child(2n){
+    left:53%;
+}
+.timeline-divider{
+    position:absolute;
+    height:50vh;
+    width:0;
+    border:2px dashed #7bb1ca;
+    top:10%;
+    left:48.5%;
+}
+.timeline-move{
+    position: sticky;
+    top: 30%;
+    transform: rotate(90deg);
+    z-index: 2;
+    color:#2b354a;
+    
+}
+
+
+#portfolio>div{
+    margin-left:15%;
+    display:flex;
+    flex-wrap:wrap;
+    align-self:center;
+    jutify-content:center;
+    
+    
+}
+#portfolio div div img{
+    height:130px;
+    width:130px;
+    margin-right:20px;
+    margin-top:20px;
+}
+#contact{
+    height:80vh;
+    
+    background:linear-gradient(-130deg,#3c3771,#2b509a)
+}
+#contact div div{
+    width:70%;
+    margin-top:40px;
+    margin-left:15%;
+    display:flex;
+    flex-direction:column;
+    color:white;
+}
+#contact div{
+    display:flex;
+}
+#contact input{
+    background:none;
+    border:1px solid white;
+    padding-top:30px;
+    border-left:0px;
+    border-right:0px;
+    border-top:0px;
+	width:100%;
+}
+#contact button{
+    width:50%;
+    height:4.2vh;
+    background:none;
+    border:1.5px solid white;
+    margin-top:10px;
+    color:white;
+    border-radius:5px;
+}
+textarea{
+    font-style:serif;
+    background:none;
+    border:1px solid white;
+    padding-top:30px;
+    border-left:0px;
+    border-right:0px;
+    border-top:0px;
+	width:100%;
+    color:white;
+}
+#button:hover{
+    color:orange;
+}
+
+
+
+
+
+
+
