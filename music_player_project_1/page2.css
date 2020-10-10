@@ -1,0 +1,207 @@
+body{
+	position: relative;
+	background-attachment: fixed;
+	background-image: url("ba.jpg");
+	background-size: cover;
+	margin:0px;
+	padding:0px;
+	font-family: "Segoe UI", Arial, sans-serif;
+	color: white; 
+}
+header{
+	z-index: 1;
+	position: fixed;
+	width:100%;
+	height: auto;
+	background-image:url("ba.jpg"); 
+}
+header>div{
+	padding-left: 5%;
+	padding-right: 5%;
+	height: auto;
+	width: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	transition: all ease-in-out 1s;
+}
+
+.logo-img{
+	width:80px;
+	height: 80px;
+	background-image: url(logo.png);
+	background-size: cover;
+	border-radius: 100%;
+	animation-name: rotate;
+	animation-duration: 1s;
+	animation-iteration-count: 3;
+	animation-direction: alternate;
+	border-left: 10px solid #d0b8ef69;
+}
+main{
+	display: inline-block;
+	width:80%;
+	height:auto;
+	padding-left:5%;
+	padding-right: 5%;
+	margin-top: 20px;	
+}
+.selected-song{
+	background-color: #12150994;
+    border: 2px solid #246227;
+    box-shadow: -2px -2px 1px 1px #CDDC39;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: center;
+	color:white;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.1rem;
+	background-image: linear-gradient(45deg, #3f51b57a, #ff572252);
+}
+.selected-song div{
+	margin-top:-2px;
+
+}
+.selected-song div img{
+	background-image: linear-gradient(45deg, #3F51B5, #FF5722);
+	padding:6px;
+	border: 2px solid white; 
+	width: 200px;
+	height: 250px;
+	border-radius: 4px;
+	margin-left: 20%;
+}
+
+@keyframes rotate{
+	from{
+		transform: rotate(-45deg);
+	}
+	to{
+		transform: rotate(45deg);
+	}
+}
+
+
+a{
+	text-decoration: none;
+	color:white;
+}
+a:hover{
+	color:pink;
+	text-shadow: 1px 1px 1px red;
+}
+
+.more-songs{
+
+	width:100%;
+	height:64px;
+	margin-top: 15px;
+	background-color: #12150994;
+    border: 2px solid #246227;
+    box-shadow: -2px -2px 1px 1px #CDDC39;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: center;
+	background-image: linear-gradient(45deg, #3f51b57a, #ff572252);
+	font-weight: bold;
+	position:relative;
+
+}
+.more-songs div img{
+	width:60px;
+	height:60px;
+
+}
+.more-songs div{
+	margin:auto;
+}
+#imgclass{
+	margin-left: 0;
+}
+
+
+.invisible{
+	display: none;
+	z-index: 1;
+	text-align: center;
+	color:white;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	
+}
+.invisible i{
+	margin-top: 25px;
+}
+.more-songs:hover .invisible{
+	display: block;
+	background-color: #d53ea766;
+}
+
+
+
+
+footer{
+	position:fixed;
+	bottom:0;
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	width:100%;
+	height:60px;
+}
+#song-image img{
+	height:100%;
+	width:60px;
+	position: absolute;
+	left:0;
+	border: 2px solid white;
+}
+
+.song-desc{
+	color:green;
+	position: absolute;
+	left:65px;
+	font-size:0.7rem;
+}
+.heart{
+	padding-top: 28px;
+	color:red;
+	font-size: 1.2rem;
+	position: absolute;
+	left:90px;
+	
+}
+.icons{
+	display: flex;
+	position: absolute;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;
+	width:30%;
+	height:100%;
+	top:1%;
+	color:pink;
+	font-size: 1.5rem;
+
+}
+.slidecontainer {
+	margin-top: 30px;
+}
+.slider{
+    width: 150px;
+    height: 5px;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+    color: red;
+}

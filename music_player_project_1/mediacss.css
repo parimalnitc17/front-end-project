@@ -1,0 +1,73 @@
+@media screen and (min-width: 700px) {
+
+	main{
+		width:70%;
+	}
+	.top-new img{
+		height: 250px;
+		width: 33%;
+	}
+	.top-new{
+		height:250px;
+		width: 100%;
+		margin-bottom: 80px;
+		justify-content: space-between;
+		text-align: center;
+		align-content: center;
+	}
+
+	.latest{
+		margin-top: 10px;
+		width:100%;
+	}
+	.search input{
+		width:170px;
+	}
+	aside{
+		display: inline-block;
+		visibility:visible;
+		width:25%;
+		height:80vh;
+		vertical-align: top;
+		text-align: center;
+		margin-top: 2%;
+	}
+	.queue-list{
+		
+	}
+	.slider{
+	    width: 400px;
+	    height: 5px;
+	    outline: none;
+	    opacity: 0.7;
+	    transition: opacity 0.2s;
+	    color: red;
+	}
+	.modal,#myBtn{
+		visibility: hidden;
+	}
+}
+@media screen and (max-width: 700px) {
+
+	main{
+		width:90%;
+	}
+	.top-new .music img{
+		height: 150px;
+		width: 120px;
+	}
+	.top-new{
+		height:auto;
+		width: 100%;
+		margin-bottom: 10px;
+		justify-content: space-between;
+		text-align: center;
+		align-content: center;
+
+	}
+	.latest{
+		margin-top: 10px;
+		width:100%;
+	}
+	
+}
